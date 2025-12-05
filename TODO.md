@@ -1,0 +1,5 @@
+- [x] Add missing ids to login form in index.html
+- [x] Add register modal to index.html
+- [x] Refactor app.js to separate concerns with conditional checks
+- [x] Remove duplicate expandable card listeners
+- [x] Test in Live Server (refactored code should work without errors)
