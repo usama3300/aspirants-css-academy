@@ -47,9 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-dark navbar-expand-lg px-3">
+
   <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-    <img src="logo.png" alt="logo">
-    <span class="fw-bold fs-5">Aspirants' CSS Academy Sukkur</span>
+    <img src="logo1.jpg" alt="logo" style="width: 70px; height: 70px; object-fit: contain;">
+    <span class="fw-bold" style="font-size: clamp(1rem, 3vw, 1.25rem);">Aspirants' CSS Academy Sukkur</span>
   </a>
 
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
@@ -66,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a id="settingsBtn" class="nav-link text-white" href="javascript:void(0);">Settings</a>
       </li> -->
       <li class="nav-item mx-2">
-        <a class="btn btn-light fw-bold px-3 py-1" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+        <a class="btn btn-light fw-bold px-4 py-1" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
       </li>
       <li class="nav-item mx-2">
         <a class="btn btn-light fw-bold px-3 py-1" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">Register</a>
@@ -78,13 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
 <!-- HERO SECTION -->
 <div class="container">
   <div class="hero-section row align-items-center">
-    <div class="col-md-6">
+    <div class="col-md-6 hero-text-col">
       <h2 class="hero-title">Welcome to Aspirants' CSS Academy</h2>
       <p class="hero-text">
         "Your trusted gateway to CSS success — supported by qualified faculty, 
         expert mentoring, and complete preparation resources."
       </p>
     </div>
+
 
     <!-- SETTINGS MODAL -->
     <div id="settingsModal" style="position: fixed; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.8); display: none; justify-content: center; align-items: center; z-index: 9999;">
@@ -99,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
 
 <!-- CAROUSEL -->
-<div class="col-md-6">
+<div class="col-md-6 hero-carousel-col">
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner rounded shadow">
       <div class="carousel-item active">
